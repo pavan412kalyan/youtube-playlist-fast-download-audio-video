@@ -10,3 +10,7 @@ python  playlist.py --playlist https://www.youtube.com/playlist?list=PLeF9GF96N9
 Youtube download code is from pytube package. I only arranged code to make downloads faster using threading. 
 
 :)
+
+
+
+DEMO VIDEO : https://www.youtube.com/watch?v=DKPM5mVBanQ :)
