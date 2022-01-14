@@ -11,7 +11,7 @@ def downloader(video,download_type,folder_name) :
             new_file = base + '.mp3'
             os.rename(orgiginal_file, new_file)  
         else :
-            orgiginal_file=video.streams.first().download(folder_name+'video')
+            orgiginal_file=video.streams.get_highest_resolution().download(folder_name+'video')
 
         
         print("Downloaded",video.title)
